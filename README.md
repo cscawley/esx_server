@@ -3,7 +3,9 @@ Hello, and welcome to my base level ESX server. Please let me know what you thin
 
 # download server
 
-Manually download from https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
+Manually download the latest FiveM server binaries from:
+
+https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
  
 or
 
