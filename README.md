@@ -4,6 +4,10 @@ Hello, and welcome to my base level ESX server. Please let me know what you thin
 # download server
 
 Manually download from https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/
+ 
+or
+
+https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/
 
 Extract the contents to a 'server' directory.
 
