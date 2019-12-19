@@ -1,0 +1,58 @@
+Locales['cs'] = {
+-- Buy menu
+    ['view'] = "Prohlednout nemovitost",
+    ['buy'] = "Zakoupit nemovitost za ",
+-- Kitchen
+    ['kitchen'] = "Kuchyne",
+    ['givekeys'] = "Dat klice",
+    ['takekeys'] = "Sebrat klice",
+    ['sell'] = "Prodat nemovitost",
+    ['manage'] = "Spravovat nemovitost",
+    ['sold'] = "Nemovitost prodana!",
+    ['tookkeys'] = "Klice sebrany od ",
+    ['name'] = "Vloz krestni jmeno nebo prijmeni",
+    ['nobodyfound'] = "Zadny obcan nenalezen",
+    ['cook'] = "Uvarit jidlo",
+    ['gavekeys'] = "Dal klice ",
+    ['bought'] = "Nemovitost zakoupena!",
+    ['select'] = "Zvolit osobu",
+-- General
+    ['yes'] = "Ano",
+    ['no'] = "Ne",
+    ['confirm'] = "Potvrdit",
+    ['notenough'] = "Nemas dostatek penez",
+-- Controls
+    ['visitkey'] = "Stiskni ~INPUT_CONTEXT~ pro navstiveni ",
+    ['enterkey'] = "Stiskni ~INPUT_CONTEXT~ pro vstup do ",
+    ['leavekey'] = "Stiskni ~INPUT_CONTEXT~ pro odchod z ",
+    ['kitchenkey'] = "Stiskni ~INPUT_CONTEXT~ pro otevreni kuchyne",
+    ['keygarage'] = "Stiskni ~INPUT_CONTEXT~ pro otevreni garaze",
+    ['clotheskey'] = "Stiskni ~INPUT_CONTEXT~ pro prevlceni",
+    ['keyroom'] = "Stiskni ~INPUT_CONTEXT~ pro otevreni skrine",
+    ['showroom'] = "Stiskni ~INPUT_CONTEXT~ pro osprchovani se",
+-- Cupboard
+    ['cupboard'] = "Skrin",
+-- Garage
+    ['noveh'] = "Zadne vozidlo pro zaparkovani",
+    ['garage'] = "Garaz",
+    ['nospace'] = "Nedostatek mista pro spawn!",
+    ['saving'] = "Ukladani ",
+    ['notowned'] = "Tohle vozidlo nevlastnis",
+    ['exceed'] = "Prekrocil jsi kapacitu garaze",
+    ['spawned'] = "Spawnuto ",
+    ['parked'] = "Zaparkovat vozidlo",
+    ['takeveh'] = "Vzit vozidlo",
+-- Clothes
+    ['changec'] = "Prevlect se",
+    ['savec'] = "Ulozit obleceni",
+    ['removec'] = "Odstranit obleceni",
+    ['clothes'] = "Obleceni",
+    ['remc'] = "Smazane obleceni: ",
+    ['savc'] = "Ulozene obleceni: ",
+    ['changc'] = "Prevlecen na: ",
+    ['nameout'] = "Pojmenuj svuj outfit",
+-- Showers
+    ['commanderr'] = "Nemuzes se uspinit prikazem!",
+    ['smell'] = "Nyni vsichni citi tvuj smrad!",
+    ['smell1'] = "Pachne",
+}

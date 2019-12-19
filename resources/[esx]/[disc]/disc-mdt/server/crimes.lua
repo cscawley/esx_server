@@ -1,0 +1,5 @@
+ESX.RegisterServerCallback('disc-mdt:getCrimes', function(source, cb)
+    MySQL.Async.fetchAll('SELECT * FROM disc_mdt_crimes', {}, function(results)
+        cb(results)
+    end)
+end)

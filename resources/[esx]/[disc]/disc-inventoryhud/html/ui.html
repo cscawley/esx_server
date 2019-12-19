@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mythic Framework Inventory</title>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link href="./css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="ui">
+        <div class="close-ui">X</div>
+        <div class="inventory" id="inventory">
+            <div class="inventory-wrapper">
+                <div class="left-data" id="player-left-data">
+                    <div id="player-inv-label" class="inv-label">Inventory Label</div>
+                    <div id="player-slots" class="inv-slots">
+                        <span id="player-used">0</span>
+                        <span>/</span>
+                        <span id="player-max">10</span>
+                    </div>
+                    <div id="player-inv-id" class="inv-id">inv-000</div>
+                </div>
+                <div id="inventoryOne">
+
+                </div>
+            </div>
+            <div id="controls">
+                <div class="info-div">
+                    <div class="money">Player</div>
+                    <div class="money" id="bank"></div>
+                    <div class="money" id="cash"></div>
+                    <div class="money" id="black_money"></div>
+                </div>
+                <div class="money-controls-div">
+                    <div class="control" id="take">Take</div>
+                    <div class="control" id="store">Store</div>
+                </div>
+                <div class="second-info-div">
+                    <div class="money" id="second-title"></div>
+                    <div class="money" id="second-cash"></div>
+                    <div class="money" id="second-black_money"></div>
+                </div>
+                <div class="controls-div">
+                    <input type="number" class="control" id="count" value="0" onClick="this.select();">
+                    <div class="control" id="use">Use</div>
+                    <div class="control" id="give">Give</div>
+                    <div class="control" id="pay">Pay</div>
+                    <div class="control hidden" id="seize">Seize Cash</div>
+                    <div class="control hidden" id="steal">Steal Cash</div>
+                </div>
+                <div class="tooltip-div">
+                    <div class="tooltip-name"></div>
+                    <div class="tooltip-uniqueness"></div>
+                    <hr />
+                    <div class="tooltip-desc"></div>
+                    <div class="tooltip-meta"></div>
+                </div>
+            </div>
+            <div class="inventory-wrapper">
+                <div class="right-data" id="other-right-data">
+                    <div id="other-inv-label" class="inv-label">Inventory Label</div>
+                    <div id="other-inv-id" class="inv-id">inv-000</div>
+                    <div id="other-slots" class="inv-slots">
+                        <span id="other-used">0</span>
+                        <span>/</span>
+                        <span id="other-max">10</span>
+                    </div>
+                </div>
+                <div id="inventoryTwo">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="inv-log"></div>
+        <div class="slot slot-template"><div class="item"><div class="item-count"></div><div class="item-price"></div><div class="item-name"></div></div></div>
+    </div>
+
+    <div class="near-players-wrapper">
+        <div class="near-players-list">
+            <div class="popup-header"><div class="popup-header-text">Nearby Players</div><div class="exit-popup">X</div></div>
+            <div class="popup-body">
+            </div>
+        </div>
+    </div>
+
+    <div id="use-alert"></div>
+    <div id="action-bar"></div>
+
+    <script src="locales/en.js"></script>
+    <script src="./js/jquery.min.js" type="text/javascript"></script>
+    <script src="./js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="./js/popper.min.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./js/config.js" type="text/javascript"></script>
+    <script src="./js/inventory.js" type="text/javascript"></script>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#use").html(invLocale.useItem);
+        $("#give").html(invLocale.giveItem);
+        $("#pay").html(invLocale.dropItem);
+        $("#inv-label").html(invLocale.label);
+	$("#steal").html(invLocale.stealmoney);
+	$("#seize").html(invLocale.seizemoney);
+	$("#take").html(invLocale.takemoney);
+	$("#store").html(invLocale.storemoney);
+    });
+</script>
+</html>

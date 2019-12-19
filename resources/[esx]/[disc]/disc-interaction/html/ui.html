@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Disc Interaction</title>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link href="./css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="ui">
+        <div class="main-menu">
+            <div class="button" id="citizen-toggle">Citizen</div>
+            <div class="button" id="vehicle-toggle">Vehicle</div>
+        </div>
+        <div class="menu" id="citizen-menu">
+            <div class="button" id="drag">Drag</div>
+            <div class="button" id="carry">Carry</div>
+            <div class="button" id="putinvehicle">Put In Vehicle</div>
+            <div class="button" id="outofvehicle">Take Out Of Vehicle</div>
+        </div>
+
+        <div class="menu" id="vehicle-menu">
+            <div class="button" id="seat-toggle">Switch Seats</div>
+            <div class="button" id="doors-toggle">Doors</div>
+        </div>
+
+        <div class="sub-menu" id="seat-menu">
+        </div>
+
+        <div class="sub-menu" id="door-menu">
+            <div class="button" id="open-all-doors">Open All</div>
+        </div>
+    </div>
+
+    <script src="./js/jquery.min.js" type="text/javascript"></script>
+    <script src="./js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="./js/popper.min.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./js/config.js" type="text/javascript"></script>
+    <script src="./js/ui.js" type="text/javascript"></script>
+</body>
+</html>

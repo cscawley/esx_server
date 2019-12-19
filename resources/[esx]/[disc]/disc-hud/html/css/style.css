@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'pricedown';
+    src: url('../fonts/pricedown.ttf');
+}
+
+@font-face {
+    font-family: 'gta-ui';
+    src: url('../fonts/gta-ui.ttf');
+}
+
+body {
+    font-family: "pricedown", Verdana, Tahoma;
+    font-size: 40px;
+    overflow: hidden;
+    height: 1080px;
+    width: 100%;
+}
+
+.money {
+    position: absolute;
+    right: 1%;
+    top: 5%;
+    text-shadow: 2px 2px #000000;
+}
+
+.cash {
+    color: rgb(114, 204, 114);
+}
+
+.bank {
+    color: rgb(93, 182, 229);
+}
+
+.change {
+    height: 30px;
+    font-size: 30px;
+    width: fit-content;
+    max-width: 209;
+    overflow: hidden;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.positive {
+    color: rgb(114, 204, 114);
+}
+
+.negative {
+    color: rgb(224, 50, 50);
+}
+
+
+#heal, #armor, #hunger, #thirst, #stamina, #voice {
+    border: 3px solid rgb(77, 77, 77);
+    background: rgb(155, 155, 155);
+}
+
+#boxHeal, #boxArmor, #boxStamina, #boxHunger, #boxThirst, #boxVoice {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#heal {
+    position: absolute;
+    left: 1.40%;
+    bottom: 1.8%;
+    width: 6.975%;
+    height: 1%;
+    padding: 0;
+    float: left;
+}
+
+#armor {
+    position: absolute;
+    left: 8.375%;
+    bottom: 1.8%;
+    width: 6.975%;
+    height: 1%;
+    padding: 0;
+    float: left;
+}
+
+#hunger {
+    position: absolute;
+    left: 1.40%;
+    bottom: 0.35%;
+    width: 3.4875%;
+    height: 1%;
+    padding: 0;
+    float: left;
+}
+
+#thirst {
+    position: absolute;
+    left: 4.8875%;
+    bottom: 0.35%;
+    width: 3.4875%;
+    height: 1%;
+    padding: 0;
+    float: left;
+}
+
+#stamina {
+    position: absolute;
+    left: 8.375%;
+    bottom: 0.35%;
+    width: 3.4875%;
+    height: 1%;
+    padding: 0;
+    float: left;
+}
+
+#voice {
+    position: absolute;
+    left: 11.8625%;
+    bottom: 0.35%;
+    width: 3.4875%;
+    height: 1%;
+    padding: 0;
+    float: left;
+}
+
+#boxHeal {
+    background: rgb(114, 204, 114);
+}
+
+#boxArmor {
+    background: rgb(47, 92, 115);
+}
+
+#boxHunger {
+    background: rgb(240, 200, 80);
+}
+
+#boxThirst {
+    background: rgb(71, 99, 173)
+}
+
+#boxStamina {
+    background: rgb(0, 151, 151);
+}
+
+#boxVoice {
+    background: rgb(240, 240, 240);
+}
+
+#boxVoice.active {
+    background: rgb(235, 36, 39);
+}
+
+.car {
+    display: none;
+}
+
+.speed, .gas, .measurement-val {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 60px;
+    position: absolute;
+    bottom: 4.68%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #ffffff;
+    font-size: 100%;
+}
+
+.speed {
+    left: 16%;
+}
+
+.measurement-val {
+    left: 18.90%;
+}
+
+.gas {
+    left: 22.75%;
+}
+
+.fuel-val, .speed-val {
+    color: rgb(114, 204, 114);
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    font-size: 125% !important;
+}
+
+.fuel-val.low, .speed-val.fast {
+    color: rgb(224, 50, 50);
+}
+
+.seatbelt, .cruise, .clock {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 25px;
+    position: absolute;
+    bottom: 3%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.clock {
+    left: 16.15%;
+}
+
+.seatbelt {
+    left: 20%;
+}
+
+.cruise {
+    left: 24%;
+}
+
+.clock {
+    color: rgb(255, 255, 255);
+}
+
+.ampm {
+    color: rgb(240, 200, 80);
+}
+
+.seatbelt.on, .cruise.on {
+    color: rgb(114, 204, 114);
+}
+
+.seatbelt.off, .cruise.off {
+    color: rgb(224, 50, 50);
+}
+
+.position {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0.35%;
+    left: 16%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #ffffff;
+}
+
+.seperator {
+    color: rgb(224, 50, 50);
+}
+
+.seperator2 {
+    color: rgb(240, 200, 80);
+}
