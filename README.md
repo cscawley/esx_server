@@ -17,13 +17,13 @@ mysql -u ADMINUSER -p < schema/run.sql
 
 In the root of the project folder
 
-**Command Prompt
+**Command Prompt**
 
 ```
 C:\PATH\TO\DIRECTORY\server\run.cmd +exec server.cfg
 ```
 
-**Shell
+**Shell**
 
 ```
 /PATH/TO/DIRECTORY/server/run.cmd +exec server.cfg
